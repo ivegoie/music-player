@@ -7,7 +7,7 @@
 }
 
 .time-control {
-  width: 65%;
+  width: 45%;
   display: flex;
   min-height: 5rem;
 
@@ -27,6 +27,7 @@
   align-items: center;
   padding: 1rem;
   width: 35%;
+  margin-bottom: 2rem;
 
   svg {
     cursor: pointer;
