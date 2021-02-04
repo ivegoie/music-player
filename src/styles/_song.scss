@@ -1,5 +1,5 @@
 .song-container {
-  padding-top: 5rem;
+  padding-top: 1rem;
   min-height: 60vh;
   display: flex;
   flex-direction: column;
@@ -39,5 +39,5 @@
 
 .rotate {
   animation-name: spin;
-  animation: spin 2.5s linear infinite;
+  animation: spin 4.5s linear infinite;
 }

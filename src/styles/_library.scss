@@ -7,6 +7,9 @@
   background-color: white;
   box-shadow: 2px 2px 50px rgba(189, 189, 189, 0.6);
   overflow-y: scroll;
+  transform: translateX(-100%);
+  transition: all 0.5s ease;
+  opacity: 0;
   // overflow: hidden;
 
   h2 {
@@ -23,6 +26,7 @@
 
   img {
     width: 40%;
+    filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.5));
   }
 
   &:hover {
@@ -64,4 +68,9 @@
 
 .selected {
   background-color: rgba(155, 155, 155, 0.6);
+}
+
+.active-library {
+  transform: translateX(0%);
+  opacity: 1;
 }
