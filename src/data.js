@@ -9,7 +9,7 @@ const hardstyle = () => {
       artist: "Rogue Zero",
       id: uuidv4(),
       active: true,
-      color: ["#46191C", "#141319"],
+      color: ["#141319", "#521B1A"],
       audio: "https://play.idmp3s.com/stream/-FPtBvH:Y1pcS",
     },
     {
@@ -29,7 +29,7 @@ const hardstyle = () => {
       artist: " D-Block & S-te-Fan",
       id: uuidv4(),
       active: false,
-      color: ["#FE9B00", "#75767A"],
+      color: ["#E22921", "#030204"],
       audio: "https://play.idmp3s.com/stream/-3WMAvH:SFHbS",
     },
     {
@@ -39,7 +39,7 @@ const hardstyle = () => {
       artist: "Sub Zero Project, Warface",
       id: uuidv4(),
       active: false,
-      color: ["#FE9B00", "#75767A"],
+      color: ["#3F67D8", "#CB0031"],
       audio: "https://play.idmp3s.com/stream/-DNSEvH:DyKWS",
     },
     {
@@ -49,7 +49,7 @@ const hardstyle = () => {
       artist: "Anderex, Mutilator",
       id: uuidv4(),
       active: false,
-      color: ["#FE9B00", "#75767A"],
+      color: ["#D90F11", "#484949"],
       audio: "https://play.idmp3s.com/stream/-Ecv1uH:XMsYS",
     },
     {
@@ -59,18 +59,18 @@ const hardstyle = () => {
       artist: "Sickmode, Desudo",
       id: uuidv4(),
       active: false,
-      color: ["#FE9B00", "#75767A"],
+      color: ["#D90F11", "#484949"],
       audio: "https://play.idmp3s.com/stream/-EfTBvH:XQQcS",
     },
     {
-      name: "The Alignmentn",
+      name: "The Alignment",
       cover:
         "//tracks.content.hardstyle.com/products/0/443/778/thumbs/500x500/keltek-the-alignment.jpg",
       artist: "KELTEK",
       id: uuidv4(),
       active: false,
-      color: ["#FE9B00", "#75767A"],
-      audio: "https://play.idmp3s.com/stream/XtcVvB:DTy3rB",
+      color: ["#B62002", "#F66000"],
+      audio: "https://play.idmp3s.com/stream/-Jje2uH:uQXES",
     },
     {
       name: "Face Rocker",
@@ -79,7 +79,7 @@ const hardstyle = () => {
       artist: "Warface",
       id: uuidv4(),
       active: false,
-      color: ["#FE9B00", "#75767A"],
+      color: ["#25CA30", "#3C3C3C"],
       audio: "https://play.idmp3s.com/stream/-fsqDvH:PYgKS",
     },
     {
@@ -89,7 +89,7 @@ const hardstyle = () => {
       artist: "Kronos, Last Word",
       id: uuidv4(),
       active: false,
-      color: ["#FE9B00", "#75767A"],
+      color: ["#FE0100", "#535F67"],
       audio: "https://play.idmp3s.com/stream/-EVMBvH:XDHcS",
     },
     {
@@ -99,7 +99,7 @@ const hardstyle = () => {
       artist: "Sickmode, The Straikerz",
       id: uuidv4(),
       active: false,
-      color: ["#FE9B00", "#75767A"],
+      color: ["#D90F11", "#484949"],
       audio: "https://play.idmp3s.com/stream/-CfTBvH:VQQcS",
     },
   ];

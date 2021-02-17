@@ -28,3 +28,11 @@ nav {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
+
+@media screen and (max-width: 768px) {
+  nav {
+    button {
+      z-index: 10;
+    }
+  }
+}

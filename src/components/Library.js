@@ -1,8 +1,6 @@
 import React from "react";
 import LibrarySong from "./LibrarySong";
 
-//! Lesson 19. Skip Back and Forward
-
 const Library = ({
   libraryStatus,
   isPlaying,
@@ -13,7 +11,7 @@ const Library = ({
 }) => {
   return (
     <div className={`library ${libraryStatus ? "active-library" : ""} `}>
-      <h2 className="linear-text">Library</h2>
+      <h2 className="linear-text">Library Songs</h2>
       <div className="library-songs">
         {songs.map((song) => (
           <LibrarySong
